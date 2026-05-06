@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4">
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div>
+        <label for="">Tarea</label>
+        <input type="text" id="tarea" placeholder="Agregar tarea" class="border-s-amber-50">
+        <button id="boton" class="bg-slate-400 p-2 rounded-sm">Agregar</button>
+    </div>
+
+    <div id="lista">
+
+    </div>
+    <input type="text" id="searchInput" placeholder="Buscar producto...">
+
+    <select id="categorySelect">
+    <option value="all">Todas</option>
+    </select>
+
+<div id="productsContainer"></div>
+    <script src="./lab.js"></script>
+</body>
+
+</html>
